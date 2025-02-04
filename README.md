@@ -5,12 +5,12 @@ This project is a HashiCorp Terraform infrastructure as code (IaC) solution that
  
 ![Architectural Diagram](https://i.postimg.cc/VsRqK5FZ/auto-connect-rds-ec2.png)
 
-##Technolgoies 
+## Technolgoies 
 * Cloud Provider - AWS
 * Services Used - RDS, and EC2
 * Programming Language - Bash
 
-##Setup Guide
+## Setup Guide
 ### Clone the Repository
 ```bash
 git clone https://github.com/Lakunzo/ec2-to-rds-terraform
