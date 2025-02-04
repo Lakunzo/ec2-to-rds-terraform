@@ -1,11 +1,13 @@
+#Specifying the provider credentials
 provider "aws" {
   region = var.aws_region
   access_key = var.aws_access_key
   secret_key = var.aws_secret_key
 }
 
+#creating the rds instance
 resource "aws_db_instance" "mydbinstance" {
-    identifier = "snbfincon"
+    identifier = "fincon"
   allocated_storage = 20
   engine = "mysql"
   engine_version = "8.0.40"
@@ -20,6 +22,7 @@ resource "aws_db_instance" "mydbinstance" {
   skip_final_snapshot = true
 }
 
+#creating the db security group
 resource "aws_security_group" "dbsecgrp" {
   name = "finconsg"
 
