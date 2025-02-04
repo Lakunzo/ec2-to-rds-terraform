@@ -18,3 +18,13 @@ git clone https://github.com/Lakunzo/ec2-to-rds-terraform
 ### Variable.tf
 1. Enter your AWS credentials for Secret Key, Access ID and Session token (optional)
 2. Enter the password to use when creating your database
+
+### UserData.sh
+Contains the bash script to install Mysql client and connect to the MysQL instance
+
+### RDS Instance
+Contains the terraform resources needed to create an RDS
+
+### EC2 Instance
+Contains the terraform resources needed to create an EC2 instance
+
