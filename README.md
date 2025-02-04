@@ -13,7 +13,7 @@ This project is a HashiCorp Terraform infrastructure as code (IaC) solution that
 ## Setup Guide
 ### Clone the Repository
 ```bash
-git clone https://github.com/Lakunzo/ec2-to-rds-terraform
+git clone https://github.com/Lakunzo/ec2-to-rds-terraform.git
 ```
 ### Variable.tf
 1. Enter your AWS credentials for Secret Key, Access ID and Session token (optional)
