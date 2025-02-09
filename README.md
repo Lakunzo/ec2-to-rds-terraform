@@ -28,3 +28,21 @@ Contains the terraform resources needed to create an RDS
 ### EC2 Instance
 Contains the terraform resources needed to create an EC2 instance
 
+### Run Terraform
+1. Initialize Terraform backend
+   ```bash
+   terraform init
+2. Validate the Terraform configuration
+   ```bash
+   terraform validate
+3. Run the terraform plan to view the resources that will be created
+   ```bash
+   terraform plan
+4. Run terraform apply to create the needed resources and type 'yes' to proceed
+   ```bash
+   terraform apply
+5. Destroy all resources to clean up the environment
+   ```bash
+   terraform destroy
+   
+
